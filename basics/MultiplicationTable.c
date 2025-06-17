@@ -1,7 +1,10 @@
+#include <stdio.h>
 int main() {
 int a;
-printf("Enter a Number:");
+printf("Enter a Number:\n");
 scanf("%d", &a);
+
+printf("Table of %d \n", a);
 
 printf("%d\n", a*1);
 printf("%d\n", a*2);
